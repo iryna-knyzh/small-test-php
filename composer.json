@@ -1,0 +1,19 @@
+{
+    "name": "dev/small-test-app",
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "authors": [
+        {
+            "name": "Iryna Knyzh",
+            "email": "iryna.knyzh@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"TestProject\\Src\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {"TestProject\\Tests\\": "tests/"}
+    }
+}
